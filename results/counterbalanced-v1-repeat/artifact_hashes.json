@@ -1,0 +1,19 @@
+{
+  "aggregated.csv": "19283db34e46477638e1d0d40089261564abef26637e9c7d6762ad6fa15908e2",
+  "baseline_failures.csv": "f97a0ce6ed17dfba6fe3d23dd8d462fa075163f5dc1e7369c4214b129f46a8bd",
+  "baseline_validation.json": "3ed54dd0806d97488d32a08f3d2e5e75d8c6225eb52ab4d5b349749965ebc7ff",
+  "baselines.csv": "2c41aaab376a7a0bdb5aa2369fc3239c2e14c55e3d7fccb78541e06474b95df7",
+  "candidate_audit.json": "92a45bd7ab3c3dffa5e1b9abf2d356b68fbc2e2dca5d587bae8abbafad253598",
+  "configuration.json": "93b29d093f0b5ec0a6b6cf778a1bba9babc4318d82b02c55fc126f0b1f4d26cb",
+  "dataset.json": "5edc8e2d40c2c02231881a37a5d76eb4ee132e53b74a8cccb507546f961ed6f0",
+  "device_validation.json": "245597624571ff1f96b521f2868c3ebc4df3ed3effb1239a4fd41231ca9d6b72",
+  "exclusions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "figures/baseline.png": "402761366315cc4627996c8834b8cd9993e447d861cb06a66ef4bca286ea9539",
+  "figures/effects_and_controls.png": "d831c34ec055e4e848764086d190efcb2b34184a138f47c48d39ddf9fb69ac17",
+  "frozen_prior_summary.json": "4099d0cc9128f3fc8937503d13f6e61cfb6497bf8de3ac70725839729422335d",
+  "helper_validation.json": "09d75f65f1e84125fbe9e4e6b64f4eb7402e0a770656c87e636f1827de5be30c",
+  "interventions.csv": "555857c234f6ff57b25de3f68b580f9db90b6ae33a6e8155d98effa6d4bbd8e5",
+  "metadata.json": "b5187f70298cdf69966d6dbf10526aede8299ec6c6548d897039227bb8e19aed",
+  "paired_contrasts.csv": "f08caa597454fd77b50028c3ec61923db5db9040701f228eb8727c4af3fdceb3",
+  "summary.json": "8b2219ccf69fb676c3d63a44c331ab85d7217b0e390eaa61b8d173254084d21b"
+}

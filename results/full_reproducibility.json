@@ -1,0 +1,9 @@
+{
+  "baselines_max_abs_difference": 0.0,
+  "interventions_max_abs_difference": 0.0,
+  "passed": true,
+  "n_prompts": 128,
+  "n_interventions": 12288,
+  "tolerance": 0.0001,
+  "scope": "same machine, same model revision, same software, MPS float32; raw numerics only"
+}

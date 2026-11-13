@@ -1,0 +1,42 @@
+{
+  "seed": 20261113,
+  "model": "gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "dtype": "float32",
+  "requested_device": "auto",
+  "pilot": false,
+  "positions": [
+    "bos",
+    "name1",
+    "name2",
+    "subject",
+    "final"
+  ],
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "max_batch_size": 16,
+  "selection_layers": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "selection_metric": "mean raw final-position LD gain on dev_names only",
+  "bootstrap_clusters": "unordered name pair",
+  "bootstrap_repeats": 5000,
+  "exclusion_policy": "tokenization and alignment only"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "metadata": "results/counterbalanced-v1/metadata.json",
+    "historical_source_hashes_different_from_current": []
+  },
+  {
+    "metadata": "results/counterbalanced-v1-repeat/metadata.json",
+    "historical_source_hashes_different_from_current": []
+  },
+  {
+    "metadata": "results/first-run/metadata.json",
+    "historical_source_hashes_different_from_current": [
+      "src/inside_transformer/analyze.py"
+    ]
+  },
+  {
+    "metadata": "results/metadata.json",
+    "historical_source_hashes_different_from_current": []
+  },
+  {
+    "metadata": "results/pilot/metadata.json",
+    "historical_source_hashes_different_from_current": [
+      "src/inside_transformer/analyze.py"
+    ]
+  },
+  {
+    "metadata": "results/pilot-repeat/metadata.json",
+    "historical_source_hashes_different_from_current": [
+      "src/inside_transformer/analyze.py"
+    ]
+  }
+]

@@ -1,0 +1,197 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loaded pretrained model gpt2 into HookedTransformer
+Moving model to device:  cpu
+Moving model to device:  mps
+Moving model to device:  mps
+Device: {"site": "blocks.10.hook_resid_pre", "position": "final", "cpu_ld": [[2.807440757751465, 2.384580612182617], [-2.384580612182617, -2.807440757751465], [2.088496208190918, 1.8245410919189453]], "mps_available": true, "selected": "mps", "mps_ld": [[2.807438850402832, 2.384556770324707], [-2.384556770324707, -2.807438850402832], [2.088484764099121, 1.8245315551757812]], "max_abs_ld_error": 2.384185791015625e-05}
+Baseline gate BEFORE interventions: True failure rows: 60
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00, 42.38it/s]
+Completed 448 interventions; outputs: <release-root>/results/counterbalanced-reproduced-audit
+{
+  "layer": 10,
+  "position": "final",
+  "evaluation_n": 64,
+  "donor_n": 64,
+  "clusters": 8,
+  "baseline_gate_passed": true,
+  "baseline_means": [
+    {
+      "metric": "clean_ld",
+      "mean": 3.0896866768598557,
+      "low": 2.7584311723709107,
+      "high": 3.4670727439224716,
+      "n": 64,
+      "clusters": 8
+    },
+    {
+      "metric": "corrupted_ld",
+      "mean": -3.0896866768598557,
+      "low": -3.467072743922472,
+      "high": -2.7584311723709107,
+      "n": 64,
+      "clusters": 8
+    }
+  ],
+  "mean_baseline_gap": 6.179373353719711,
+  "baseline_clean_pairwise_accuracy": 0.96875,
+  "baseline_corrupted_pairwise_accuracy": 0.96875,
+  "baseline_clean_top1_accuracy": 0.65625,
+  "baseline_corrupted_top1_accuracy": 0.65625,
+  "conditions": [
+    {
+      "kind": "bos_null",
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.03125,
+      "clean_answer_top1_accuracy": 0.0,
+      "recovery": null
+    },
+    {
+      "kind": "clean_noop",
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.96875,
+      "clean_answer_top1_accuracy": 0.65625,
+      "recovery": null
+    },
+    {
+      "kind": "corrupted_noop",
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.03125,
+      "clean_answer_top1_accuracy": 0.0,
+      "recovery": null
+    },
+    {
+      "kind": "matched",
+      "mean": 6.091088354587555,
+      "low": 5.440549212321639,
+      "high": 6.88577139377594,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.90625,
+      "clean_answer_top1_accuracy": 0.625,
+      "recovery": 0.9857129527415571
+    },
+    {
+      "kind": "name1_null",
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.03125,
+      "clean_answer_top1_accuracy": 0.0,
+      "recovery": null
+    },
+    {
+      "kind": "unrelated_opposite_position",
+      "mean": 0.3678481727838516,
+      "low": -0.10330566763877869,
+      "high": 0.9645050942897784,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.046875,
+      "clean_answer_top1_accuracy": 0.0,
+      "recovery": 0.05952839417971455
+    },
+    {
+      "kind": "unrelated_same_position",
+      "mean": 5.574720025062561,
+      "low": 5.26048918813467,
+      "high": 5.865981286391616,
+      "n": 64,
+      "clusters": 8,
+      "clean_pairwise_preference": 0.90625,
+      "clean_answer_top1_accuracy": 0.25,
+      "recovery": 0.9021497336306479
+    }
+  ],
+  "matched_by_answer_position": [
+    {
+      "answer_position": 1,
+      "mean": 6.195704609155655,
+      "low": 5.570500910282135,
+      "high": 6.952298350632191,
+      "n": 32,
+      "clusters": 8
+    },
+    {
+      "answer_position": 2,
+      "mean": 5.986472100019455,
+      "low": 5.300126552581787,
+      "high": 6.825502446293828,
+      "n": 32,
+      "clusters": 8
+    }
+  ],
+  "contrasts": {
+    "matched_minus_balanced": {
+      "mean": 3.1198042556643486,
+      "low": 2.7708429059013726,
+      "high": 3.553595043718815,
+      "n": 64,
+      "clusters": 8
+    },
+    "matched_minus_same": {
+      "mean": 0.5163683295249939,
+      "low": 0.0011727809906005857,
+      "high": 1.196533447504043,
+      "n": 64,
+      "clusters": 8
+    },
+    "matched_minus_opposite": {
+      "mean": 5.723240181803703,
+      "low": 5.410466622188688,
+      "high": 5.988533417135477,
+      "n": 64,
+      "clusters": 8
+    },
+    "same_minus_opposite": {
+      "mean": 5.206871852278709,
+      "low": 4.64061062335968,
+      "high": 5.704295292496681,
+      "n": 64,
+      "clusters": 8
+    },
+    "unrelated_balanced": {
+      "mean": 2.9712840989232063,
+      "low": 2.653589390218258,
+      "high": 3.337471164576709,
+      "n": 64,
+      "clusters": 8
+    }
+  },
+  "hypothesis_supported": true,
+  "max_null_error": 0.0,
+  "bootstrap_repeats": 5000,
+  "seed": 20261114
+}
+{
+  "passed": true,
+  "fields_recomputed": 2546,
+  "artifact_hashes_checked": 27,
+  "original_n": 128,
+  "original_interventions": 12288,
+  "extension_evaluation_n": 64,
+  "extension_donor_n": 64,
+  "extension_interventions": 448,
+  "original_gain_subtraction_max_error": 1.7763568394002505e-15,
+  "extension_gain_subtraction_max_error": 1.7763568394002505e-15,
+  "bootstrap_repeats": 5000,
+  "extension_blocks": 8,
+  "bootstrap_intervals_are_conditional": true
+}
+........................                                                 [100%]
+24 passed in 2.41s

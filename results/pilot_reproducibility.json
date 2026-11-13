@@ -1,0 +1,5 @@
+{
+  "baselines_max_abs_difference": 0.0,
+  "interventions_max_abs_difference": 0.0,
+  "passed": true
+}

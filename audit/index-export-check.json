@@ -1,0 +1,9 @@
+{
+  "git_index_export_tests_passed": 24,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "existing_output_refusal_verified": true,
+  "git_commit_created": false,
+  "remote_created": false,
+  "environment": "existing same-machine environment and cached model; no fresh-machine claim"
+}

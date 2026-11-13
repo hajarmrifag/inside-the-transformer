@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-11-13T05:18:54.185237+00:00",
+  "elapsed_seconds": 3.980655042003491,
+  "device": "mps",
+  "dtype": "float32",
+  "python": "3.11.17",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "evaluation_n": 64,
+  "donor_n": 64,
+  "clusters": 8,
+  "n_interventions": 448,
+  "max_null_error": 0.0,
+  "baseline_gate_passed": true,
+  "versions": {
+    "torch": "2.15.0",
+    "transformer-lens": "2.16.1",
+    "transformers": "4.57.6",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.11.2"
+  },
+  "source_hashes": {
+    "src/inside_transformer/__init__.py": "76bbc0345490b4b13fd436802a1efef9784a0ceaf7758887099cfec168aeea4e",
+    "src/inside_transformer/core.py": "f3c54b48430a93047e56fb464392e9fc1a6e5e32bd20548edcbe86d28762f054",
+    "src/inside_transformer/experiment.py": "e999547087521ccc191e767974edcabfc63dbc25f96ff136efc2986e375ba9d0",
+    "src/inside_transformer/counterbalanced.py": "ac637028a97833ca3ba269911f1b61256b11c50913dc16c934f5ee4de31a4210",
+    "src/inside_transformer/counterbalanced_analyze.py": "3a718712a4af3ef0a65f42ce095da2fcdf623cbfb345f46e214b88a7fea9fce9",
+    "src/inside_transformer/data.py": "eaca64c8e437736170b42299b502328301d9dcb012c2ffe18d01a86449a034f3",
+    "src/inside_transformer/analyze.py": "833b5687b8b86849296b022f3a32d43a6bdfa7df8fb8755ff48df422fd8bdf51",
+    "src/inside_transformer/counterbalanced_data.py": "86a1f49147bd98f2bd8c425a5889707bdf71434c5b1e79ab3b3a1b20e2f9011f"
+  }
+}

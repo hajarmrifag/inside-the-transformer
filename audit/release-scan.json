@@ -1,0 +1,8 @@
+{
+  "scope": "staged files only; heuristic patterns, not a guarantee that every possible secret is absent",
+  "files_scanned": 144,
+  "total_bytes": 4462319,
+  "largest_file_bytes": 999727,
+  "findings": [],
+  "passed": true
+}

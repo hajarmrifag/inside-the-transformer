@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "fields_recomputed": 2551,
+  "artifact_hashes_checked": 29,
+  "original_n": 128,
+  "original_interventions": 12288,
+  "extension_evaluation_n": 64,
+  "extension_donor_n": 64,
+  "extension_interventions": 448,
+  "original_gain_subtraction_max_error": 1.7763568394002505e-15,
+  "extension_gain_subtraction_max_error": 1.7763568394002505e-15,
+  "bootstrap_repeats": 5000,
+  "extension_blocks": 8,
+  "bootstrap_intervals_are_conditional": true
+}

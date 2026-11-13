@@ -1,0 +1,19 @@
+{
+  "model_loaded": true,
+  "experiment_completed": true,
+  "source_hashes_match": true,
+  "raw_artifact_hashes_match": true,
+  "n_prompts": 128,
+  "n_interventions": 12288,
+  "n_excluded": 0,
+  "n_figures": 5,
+  "final_tests_passed": 14,
+  "final_tests_failed": 0,
+  "final_tests_skipped": 0,
+  "same_machine_full_repeat_max_abs_difference": 0.0,
+  "pilot_repeat_max_abs_difference": 0.0,
+  "figures_visually_inspected": true,
+  "report_claims_checked_against_summary": true,
+  "fresh_machine_install_tested": false,
+  "cross_hardware_replication_tested": false
+}

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+results/** -text
+*.png binary
+# Preserve historical document snapshot formatting; lint current files normally.
+docs/history/** -whitespace

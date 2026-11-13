@@ -1,0 +1,12 @@
+{
+  "dataset.json": "3eea1fd9a70b85a1c284e960063773d952b1b2fd2df55663312f19dae0e52f68",
+  "baselines.csv": "4f3390bb9ab475c232a724bdd0e3ea2370afc8698d2b5ee569cc7991eac34047",
+  "interventions.csv": "8758ee098e42bcbf97ecf6bcd6c8cb0c5507cce1e1c722a01c2b56a73d8e5100",
+  "summary.json": "4099d0cc9128f3fc8937503d13f6e61cfb6497bf8de3ac70725839729422335d",
+  "aggregated.csv": "c9867bf567d74b78157275cae793e60ddd91348728b1a825bb3f48ad5b414f32",
+  "figures/templates.png": "299e4a14a66985c2e4388db3682468773b7dc6b2ca1c4e6bf16670c458fc52a2",
+  "figures/baseline.png": "b491bc25c61e40fdbd3de296a85a6c823ba91e594d402a74ebb94d3ef1bfdaf6",
+  "figures/recovery_layers.png": "039692a41bd9be3b0bfc1e70a86b23e79f375b7ddf693f94df3754089a5fe8d3",
+  "figures/controls.png": "ceb33528821854e48822a195886dc7cff2610ac066e2035191a47ccc9206dea1",
+  "figures/patching_heatmap.png": "9c48741e12a0335f0573e55f2fc1fa70c272e942b19795797ef8cfe25452ed38"
+}

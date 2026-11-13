@@ -1,0 +1,7 @@
+{
+  "baselines_max_abs_difference": 0.0,
+  "interventions_max_abs_difference": 0.0,
+  "passed": true,
+  "tolerance": 0.0001,
+  "scope": "same-machine MPS float32, same model revision and dataset; measured raw numerics only"
+}

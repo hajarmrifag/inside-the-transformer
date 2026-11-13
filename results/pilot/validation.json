@@ -1,0 +1,8 @@
+{
+  "examples": 4,
+  "interventions": 384,
+  "max_noop_error": 0.0,
+  "max_prefix_error": 0.0,
+  "max_embedding_repair_error": 0.0,
+  "passed": true
+}

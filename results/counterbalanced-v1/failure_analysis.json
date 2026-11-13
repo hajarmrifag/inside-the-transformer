@@ -1,0 +1,142 @@
+{
+  "pools": {
+    "donor": {
+      "n_directed_pairs": 64,
+      "n_distinct_clean_or_corrupted_sentences": 64,
+      "clean_pairwise_failures": 0,
+      "corrupted_pairwise_failures": 0,
+      "clean_top1_failures": 24,
+      "wrong_clean_top1_tokens": {
+        " the": 24
+      }
+    },
+    "evaluation": {
+      "n_directed_pairs": 64,
+      "n_distinct_clean_or_corrupted_sentences": 64,
+      "clean_pairwise_failures": 2,
+      "corrupted_pairwise_failures": 2,
+      "clean_top1_failures": 22,
+      "wrong_clean_top1_tokens": {
+        " the": 22
+      }
+    }
+  },
+  "pairwise_failures": [
+    {
+      "id": "evaluation-b4-t0-o1-g0",
+      "pool": "evaluation",
+      "clean": "When Catherine and Joseph met at the station, Joseph gave a ticket to",
+      "corrupted": "When Catherine and Joseph met at the station, Catherine gave a ticket to",
+      "answer_name": "Catherine",
+      "foil_name": "Joseph",
+      "clean_ld": -0.3035306930541992,
+      "corrupted_ld": -4.83631706237793,
+      "clean_top1_text": " the",
+      "corrupted_top1_text": " Joseph"
+    },
+    {
+      "id": "evaluation-b4-t0-o1-g1",
+      "pool": "evaluation",
+      "clean": "When Catherine and Joseph met at the station, Catherine gave a ticket to",
+      "corrupted": "When Catherine and Joseph met at the station, Joseph gave a ticket to",
+      "answer_name": "Joseph",
+      "foil_name": "Catherine",
+      "clean_ld": 4.83631706237793,
+      "corrupted_ld": 0.3035306930541992,
+      "clean_top1_text": " Joseph",
+      "corrupted_top1_text": " the"
+    },
+    {
+      "id": "evaluation-b6-t0-o0-g0",
+      "pool": "evaluation",
+      "clean": "When Patrick and Diana met at the station, Patrick gave a ticket to",
+      "corrupted": "When Patrick and Diana met at the station, Diana gave a ticket to",
+      "answer_name": "Diana",
+      "foil_name": "Patrick",
+      "clean_ld": 5.588310241699219,
+      "corrupted_ld": 0.5251302719116211,
+      "clean_top1_text": " Diana",
+      "corrupted_top1_text": " the"
+    },
+    {
+      "id": "evaluation-b6-t0-o0-g1",
+      "pool": "evaluation",
+      "clean": "When Patrick and Diana met at the station, Diana gave a ticket to",
+      "corrupted": "When Patrick and Diana met at the station, Patrick gave a ticket to",
+      "answer_name": "Patrick",
+      "foil_name": "Diana",
+      "clean_ld": -0.5251302719116211,
+      "corrupted_ld": -5.588310241699219,
+      "clean_top1_text": " the",
+      "corrupted_top1_text": " Diana"
+    }
+  ],
+  "matched_patch_failures": [
+    {
+      "id": "evaluation-b1-t0-o0-g0",
+      "template": 0,
+      "answer_position": 2,
+      "answer_name": "Grace",
+      "clean_ld": 0.7992191314697266,
+      "corrupted_ld": -3.5884313583374023,
+      "patched_ld": -0.1108646392822265,
+      "gain": 3.477566719055176,
+      "top1_text": " the"
+    },
+    {
+      "id": "evaluation-b4-t0-o0-g0",
+      "template": 0,
+      "answer_position": 2,
+      "answer_name": "Catherine",
+      "clean_ld": 0.380035400390625,
+      "corrupted_ld": -4.489292144775391,
+      "patched_ld": -0.2821884155273437,
+      "gain": 4.207103729248047,
+      "top1_text": " the"
+    },
+    {
+      "id": "evaluation-b4-t0-o1-g0",
+      "template": 0,
+      "answer_position": 1,
+      "answer_name": "Catherine",
+      "clean_ld": -0.3035306930541992,
+      "corrupted_ld": -4.83631706237793,
+      "patched_ld": -1.2479925155639648,
+      "gain": 3.588324546813965,
+      "top1_text": " the"
+    },
+    {
+      "id": "evaluation-b6-t0-o0-g1",
+      "template": 0,
+      "answer_position": 1,
+      "answer_name": "Patrick",
+      "clean_ld": -0.5251302719116211,
+      "corrupted_ld": -5.588310241699219,
+      "patched_ld": -0.5904817581176758,
+      "gain": 4.997828483581543,
+      "top1_text": " the"
+    },
+    {
+      "id": "evaluation-b7-t0-o0-g0",
+      "template": 0,
+      "answer_position": 2,
+      "answer_name": "Rose",
+      "clean_ld": 0.4435644149780273,
+      "corrupted_ld": -2.227062225341797,
+      "patched_ld": -0.015625,
+      "gain": 2.211437225341797,
+      "top1_text": " the"
+    },
+    {
+      "id": "evaluation-b7-t0-o1-g0",
+      "template": 0,
+      "answer_position": 1,
+      "answer_name": "Rose",
+      "clean_ld": 0.1693668365478515,
+      "corrupted_ld": -3.2856130599975586,
+      "patched_ld": -0.2181921005249023,
+      "gain": 3.067420959472656,
+      "top1_text": " the"
+    }
+  ]
+}

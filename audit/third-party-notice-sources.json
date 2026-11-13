@@ -1,0 +1,17 @@
+{
+  "upstream_notices": [
+    {
+      "file": "licenses/TransformerLens-MIT.txt",
+      "source_url": "https://raw.githubusercontent.com/TransformerLensOrg/TransformerLens/v2.16.1/LICENSE",
+      "sha256": "46924225aa2a7325d9d4bf47a8add940844d8d7e2d342a6f07baeeeaf4b66a43",
+      "retrieved_date": "2026-11-13"
+    },
+    {
+      "file": "licenses/GPT-2-Modified-MIT.txt",
+      "source_url": "https://raw.githubusercontent.com/openai/gpt-2/master/LICENSE",
+      "sha256": "0dbeda4bc78823b1d67ec0ee414d8690ee4cad826bc9c147b215adc3af202436",
+      "retrieved_date": "2026-11-13"
+    }
+  ],
+  "transformerlens_installed_notice_matches_tagged_upstream": true
+}

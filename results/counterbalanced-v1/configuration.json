@@ -1,0 +1,25 @@
+{
+  "protocol": "docs/position-counterbalanced-protocol.md",
+  "protocol_sha256": "c1f87fef960fc00d94df8669166e806de5e44ba0f3edf935f1c47e51b90790c4",
+  "seed": 20261114,
+  "layer": 10,
+  "position": "final",
+  "hook": "blocks.10.hook_resid_pre",
+  "model": "gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "prior_summary_sha256": "4099d0cc9128f3fc8937503d13f6e61cfb6497bf8de3ac70725839729422335d",
+  "site_search": false,
+  "planned_evaluation_n": 64,
+  "planned_donor_n": 64,
+  "bootstrap_repeats": 5000,
+  "cluster": "exclusive evaluation+donor name-pair block",
+  "intervention_kinds": [
+    "matched",
+    "unrelated_same_position",
+    "unrelated_opposite_position",
+    "corrupted_noop",
+    "clean_noop",
+    "bos_null",
+    "name1_null"
+  ]
+}

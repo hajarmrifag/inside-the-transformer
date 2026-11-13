@@ -1,0 +1,44 @@
+Loading gpt2 revision 607a30d783dfa663caf39e06633721c8d4cfcd7e
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loaded pretrained model gpt2 into HookedTransformer
+Moving model to device:  mps
+Moving model to device:  mps
+{
+  "mps_built": true,
+  "mps_available": true,
+  "cpu_seconds_per_forward": 0.02389234733224536,
+  "cpu_logit_differences": [
+    [
+      3.668423652648926,
+      3.8735132217407227
+    ],
+    [
+      -3.226442337036133,
+      -2.412529945373535
+    ],
+    [
+      -3.2355451583862305,
+      -2.369296073913574
+    ]
+  ],
+  "selected": "mps",
+  "mps_logit_differences": [
+    [
+      3.6684322357177734,
+      3.873525619506836
+    ],
+    [
+      -3.226430892944336,
+      -2.4125165939331055
+    ],
+    [
+      -3.23553466796875,
+      -2.369295120239258
+    ]
+  ],
+  "max_ld_error": 1.33514404296875e-05,
+  "mps_seconds_per_forward": 0.012222305667819455
+}
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 50.84it/s]
+Batch 1/1 ('development', 0), n=4
+Finished 4 examples in 2.8s

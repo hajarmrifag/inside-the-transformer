@@ -1,0 +1,5 @@
+id,clean_ld,corrupted_ld,clean_top1_token,corrupted_top1_token,clean_top1_text,corrupted_top1_text,clean_top1_correct,corrupted_top1_correct,clean_answer_probability,corrupted_foil_probability
+development-0-0-0,3.668421745300293,-3.2264404296875,1757,5335, John, Mary,True,True,0.6456757187843323,0.598700225353241
+development-0-1-0,3.8735313415527344,-2.4125242233276367,5335,1757, Mary, John,True,True,0.7697853446006775,0.44822442531585693
+development-1-0-0,4.182913780212402,-2.8407554626464844,14862,5811, Alice, Bob,True,True,0.8903499245643616,0.5798191428184509
+development-1-1-0,2.9234619140625,-4.142858505249023,5811,14862, Bob, Alice,True,True,0.724432647228241,0.8203909993171692

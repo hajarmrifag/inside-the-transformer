@@ -1,0 +1,11 @@
+{
+  "original_path": "src/inside_transformer/analyze.py",
+  "archived_path": "audit/historical-source/analyze-before-layout-fix.py",
+  "sha256": "116890aa4c8aa793ac7f7a184eb32ce9ed80f4def345cb4f3cecdc5aa2e19f31",
+  "verification": "exact match to historical first-run and pilot metadata; reconstructed by reversing the documented layout-only change; no historical Git commit asserted",
+  "historical_records_with_matching_hash": [
+    "results/first-run/metadata.json",
+    "results/pilot/metadata.json",
+    "results/pilot-repeat/metadata.json"
+  ]
+}

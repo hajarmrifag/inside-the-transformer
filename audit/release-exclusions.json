@@ -1,0 +1,34 @@
+[
+  {
+    "path": "results/counterbalanced-v1/run.log",
+    "sha256": "38265ec92bebd04323e4d908c5e53d5a08746ebea0bd385dfeda1bfcf7e1fd5f",
+    "reason": "private absolute output path in runtime log"
+  },
+  {
+    "path": "results/counterbalanced-v1-repeat/run.log",
+    "sha256": "1f2cd46e050177b9c4db420e2e585ec73d9c9744bea503968a9aa78a61daeff9",
+    "reason": "private absolute output path in runtime log"
+  },
+  {
+    "path": "scripts/build_counterbalanced_handoff.py",
+    "sha256": "a6a56fbfc4be0298dc033df61575cd5ba8f814593e279faea0e3452806e89e63",
+    "reason": "legacy prose generator superseded by audited documentation"
+  },
+  {
+    "path": "scripts/build_handoff.py",
+    "sha256": "87077f18847a47f0c7647ce5090f0ea648744843fc18c8b2b8e0d11383697853",
+    "reason": "legacy prose generator superseded by audited documentation"
+  },
+  {
+    "path": "reports/",
+    "reason": "redundant pre-results background memo; current attribution audit retained"
+  },
+  {
+    "path": "research_notes/",
+    "reason": "working research notes; current citations and reference audit retained"
+  },
+  {
+    "path": ".venv/",
+    "reason": "local environment, approximately 1.3 GiB; dependencies recorded separately"
+  }
+]

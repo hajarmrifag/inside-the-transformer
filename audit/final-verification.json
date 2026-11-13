@@ -1,0 +1,23 @@
+{
+  "current_markdown_local_links_passed": true,
+  "historical_markdown_link_context": "archived original repository-root documents; not rewritten",
+  "application_description_words": 70,
+  "cv_bullet_ai_assistance_disclosed": true,
+  "numeric_fields_independently_recomputed": 2551,
+  "model_tests_passed": 24,
+  "git_index_export_tests_passed": 24,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "canonical_source_hashes_match": true,
+  "original_result_files_preserved": 44,
+  "same_machine_original_and_extension_rerun_max_difference": 0.0,
+  "remote_count": 0,
+  "commit_count": 0,
+  "published": false,
+  "submitted": false,
+  "license": "unassigned; owner decision pending",
+  "fresh_machine_tested": false,
+  "cross_hardware_tested": false,
+  "historical_plotting_source_recovered_and_hash_verified": true,
+  "historical_records_matched_by_recovered_source": 3
+}

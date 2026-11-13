@@ -1,0 +1,37 @@
+{
+  "started_utc": "2026-11-13T03:46:57.091687+00:00",
+  "elapsed_seconds": 30.65502970899979,
+  "seed": 20261113,
+  "pilot": false,
+  "device": "mps",
+  "model": "gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "dtype": "float32",
+  "n_examples": 128,
+  "n_excluded": 0,
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "peak_process_rss_bytes": 1690386432,
+  "python": "3.11.17",
+  "machine": "arm64",
+  "n_layers": 12,
+  "versions": {
+    "torch": "2.15.0",
+    "transformer-lens": "2.16.1",
+    "transformers": "4.57.6",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "matplotlib": "3.11.2"
+  },
+  "model_processing": {
+    "fold_ln": true,
+    "center_writing_weights": true,
+    "center_unembed": true
+  },
+  "source_hashes": {
+    "src/inside_transformer/__init__.py": "76bbc0345490b4b13fd436802a1efef9784a0ceaf7758887099cfec168aeea4e",
+    "src/inside_transformer/core.py": "f3c54b48430a93047e56fb464392e9fc1a6e5e32bd20548edcbe86d28762f054",
+    "src/inside_transformer/experiment.py": "e999547087521ccc191e767974edcabfc63dbc25f96ff136efc2986e375ba9d0",
+    "src/inside_transformer/data.py": "eaca64c8e437736170b42299b502328301d9dcb012c2ffe18d01a86449a034f3",
+    "src/inside_transformer/analyze.py": "833b5687b8b86849296b022f3a32d43a6bdfa7df8fb8755ff48df422fd8bdf51"
+  }
+}
